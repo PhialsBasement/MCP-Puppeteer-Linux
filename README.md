@@ -1,4 +1,6 @@
 # MCP-Puppeteer-Linux
+[![smithery badge](https://smithery.ai/badge/@PhialsBasement/mcp-puppeteer-linux)](https://smithery.ai/server/@PhialsBasement/mcp-puppeteer-linux)
+
 A Model Context Protocol server that provides browser automation capabilities using Puppeteer, with full support for Linux display servers (X11 and Wayland). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.
 
 ## Display Server Support
@@ -72,6 +74,16 @@ The server provides access to two types of resources:
 ```
 
 ## Installation
+
+### Installing via Smithery
+
+To install Puppeteer Linux for Claude Desktop automatically via [Smithery](https://smithery.ai/server/@PhialsBasement/mcp-puppeteer-linux):
+
+```bash
+npx -y @smithery/cli install @PhialsBasement/mcp-puppeteer-linux --client claude
+```
+
+### Manual Installation
 1. Clone the repository:
 ```bash
 git clone https://github.com/PhialsBasement/MCP-Puppeteer-Linux.git
