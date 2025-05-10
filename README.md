@@ -4,6 +4,8 @@
 [![smithery badge](https://smithery.ai/badge/@PhialsBasement/mcp-puppeteer-linux)](https://smithery.ai/server/@PhialsBasement/mcp-puppeteer-linux)
 A Model Context Protocol server that provides browser automation capabilities using Puppeteer, with full support for Linux display servers (X11 and Wayland). This server enables LLMs to interact with web pages, take screenshots, and execute JavaScript in a real browser environment.
 
+<a href="https://glama.ai/mcp/servers/dhm3zekwh9"><img width="380" height="200" src="https://glama.ai/mcp/servers/dhm3zekwh9/badge" alt="Puppeteer Linux Server MCP server" /></a>
+
 ## Display Server Support
 This fork adds automatic detection and configuration for Linux display servers:
 - Automatic X11/Wayland detection
